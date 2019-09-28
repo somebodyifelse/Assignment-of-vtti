@@ -1,0 +1,180 @@
+*{margin:0; padding:0;}
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
+/*  font-family: 'Permanent Marker', cursive;   */
+ 
+.teamnamewrap{
+    width:1280px;
+    height: auto;
+    margin: 0 auto;
+
+}
+.teamname{
+    float: left;
+}
+.teamname img{
+    width:1280px;
+}
+
+
+/* team card start from here */
+.teamcard{
+	width: 1280px;
+	height: auto;
+	margin: 0 auto;
+}
+.teachwrap{
+	float: left;
+	border-radius: 20px;
+	width:280px;
+	height: 400px;
+	background-color: #AAB7B8;
+	margin-right: 48.5px;
+	margin-top: 48.5px;
+	margin-bottom: 48.5px;
+	border-radius: 27px;
+	
+}
+.teacherupper{
+	position: relative;
+	float: left;
+	width:280px;
+	height: 200px;
+	background-color:  ;
+}
+.teacherlower{
+	float: left;
+	width:280px;
+	height: 200px;
+}
+.teacherlower h2{
+	text-align: center;
+	padding-top: 25px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 20px;
+	padding-bottom: 15px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.teacherlower p{
+	font-family: 'Roboto Slab', serif;
+	text-align: center;
+	font-size: 15px;
+}
+
+.teachrimg img{
+	width:150px;
+	height: 150px;
+	border-radius: 50%;
+	transform: translate(62px, 40px);
+}
+.teacherlower a{
+	color:#fff;
+	float: left;
+	font-family: 
+	color:#fff;
+	text-decoration: none;
+	font-size: 20px;
+	margin-left: 55px;
+	margin-top: 30px;
+	background-color: black;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 4px;
+	padding-bottom: 6px;
+	border-radius: 25px;
+}
+
+/* no margin */
+.te{
+	margin-right: 0;
+}
+
+/* ================== */
+
+#whowrap{
+	width: 1280px;
+	height: auto;
+	margin: 0 auto;
+}
+.people{
+	float: left;
+	width:100%;
+	background-color: #C6C6C6;
+/*	margin-bottom: 50px; */
+}
+.people h1{
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-family: 'Josefin Sans', sans-serif;
+	
+}
+
+
+
+
+
+
+/* details start from here */
+
+#detailswrap{
+	width: 1280px;
+	height: auto;
+	margin: 0 auto;
+}
+.detail img{
+	float: left;
+	width:400px;
+	height: 400px;
+	border-radius: 50%;
+	margin-left: 110px;
+}
+.detailspo{
+	float: left;
+	width: 640px;
+	height: 400px;
+	background:#85929E;
+	position: relative;
+}
+.detailtextt{
+	position: relative;
+	float: left;
+	width:640px;
+	height: 400px;
+	background: #82E0AA;
+}
+/* detailtextt copy */ 
+.detailtexttt{
+	position: relative;
+	float: left;
+	width:640px;
+	height: 400px;
+	background: #5DADE2;
+}
+.textt{
+	float: left;
+	
+}
+.textt h2{
+	float: left;
+	margin-bottom: 22px;
+	color:#fff;
+	font-family: 'Josefin Sans', sans-serif;
+	margin-top: 40px;
+	padding-left: 125px;
+
+}
+.textt p{
+	padding-bottom:3px;
+	padding-left: 125px;
+	font-family: 'Josefin Sans', sans-serif;
+
+}
+.abt{
+	float: left;
+	width:400px;
+	text-align: justify;
+}
+
+
+/* people who help */

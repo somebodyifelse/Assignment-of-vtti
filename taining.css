@@ -1,0 +1,39 @@
+.hwrapper{
+    width:1280px;
+    height: auto;
+    margin: 0 auto;
+}
+.wrph h1{
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 40%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.table{
+    width:1280px;
+    height: auto;
+    margin: 0 auto;
+}
+
+table{
+    border:1px solid tomato;
+    border-collapse: collapse;
+    width: 1280px;
+    height: auto;
+    margin-bottom: 20px;
+    
+
+}
+
+td{
+    width:640px;
+    height: 50px;
+    border: 1px solid tomato;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.t{
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+}

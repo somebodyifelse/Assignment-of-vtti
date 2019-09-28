@@ -1,0 +1,59 @@
+*{margin:0; padding:0;}
+
+/* notice section start from here */
+.noticewrap{
+    width: 1280px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.noticesection{
+    float: left;
+    width: 100%;
+    height: 60px;
+  /*  margin-left: 40%; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: #34495E;
+  /*  border-radius: 25px; */
+}
+.noticesection h2{
+    color:#fff;
+    text-align: center;
+    padding-top: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* table wrap start from here */ 
+
+.tabwrap{
+    width:1280px;
+    height: auto;
+    margin: 0 auto;
+}
+/* configuring table seciton */
+ table{
+     width:1280px;
+     height: auto;
+     border-collapse: collapse;
+     margin-bottom: 25px;
+}
+table , tr{
+    height: 50px;
+}
+table, tr, td{
+    border: 1px solid tomato;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+table, tr, td, a{
+    text-decoration: none;
+    color: #34495E;
+}
+/*download hover with border */
+.tab a:hover{
+    color:#27AE60;
+    transition: 0.5s;
+    border-bottom: 1px solid #27AE60;
+}
