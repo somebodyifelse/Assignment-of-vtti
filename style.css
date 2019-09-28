@@ -1,0 +1,515 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css?family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Mansalva&display=swap');
+/*   font-family: 'Mansalva', cursive;    */
+@import url('https://fonts.googleapis.com/css?family=Abel&display=swap');
+/*  font-family: 'Abel', sans-serif;  */
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+/*	font-family: 'Josefin Sans', sans-serif;	*/ /*for teacher's card */
+
+
+*{margin:0; padding:0;}
+
+
+
+body{
+
+}
+
+
+/* wrapper goes from here */
+.wrapper{
+	width:1280px;
+	height:auto;
+	margin:0 auto;
+	clear:both;
+}
+
+/*header goes from here */
+.header{
+	float:left;
+	background: #34495E;
+	width:100%;
+	height: 120px;
+}
+
+/* header image */
+.header img{
+	width:70px;
+	height:70px;
+	margin-left: 30px;
+	margin-top: 22px;
+	margin-right: 20px;
+	float:left;
+	clear:both;
+}
+
+/* header heading */
+
+.header h1{
+	color:#fff;
+	font-size: 45px;
+	padding-top: 30px;
+}
+
+/*menu start from here */ 
+
+/*menuwrap */ 
+
+.menuwrap{
+	width:1280px;
+	height: auto;
+	margin: 0 auto;
+}
+.menu{
+	width:100%;
+	height: 60px;
+	float:left;
+	background-color: #27AE60;
+}
+
+.menu ul li{
+	list-style-type: none;
+	float:left;
+	margin-top: 17px;
+	margin-left: 20px;
+}
+
+.menu ul li a{
+	float:left;
+	color:#fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 20px;
+	padding-left: 24px;
+	padding-right: 20px;
+	transition: 1s;
+	/* background-color:skyblue; */
+}
+.menu ul li a:hover{
+	transition: 0.5s;
+	background-color: #34495E;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	border-radius:3px;
+}
+
+/* imgslice wrapper */
+ 
+.imgslidewrap{
+	width:1280px;
+	height: auto;
+	margin:0 auto;
+}
+
+.imgslide img{
+	width:100%;
+	height: 500px;
+}
+
+
+.slider img{
+	float:left;
+	width:100%;
+	height: 450px;
+}
+
+
+/* principlawrap start from here */
+.principalwrap{
+	width:1280px;
+	height: auto;
+	margin: 0 auto;
+	clear:both;
+}
+
+/* message */
+.message.clear{
+	clear:both;
+}
+.message{
+	width:100%;
+	height: 100px;
+	background-color: #27AE60;
+	float:left;
+}
+.message h2{
+	text-align: center;
+	margin-top: 22px;
+	font-size: 40px;
+	color: #fff;
+}
+
+.principal img{
+	width:50%;
+	float:right;
+	height: 500px;
+}
+.text p{
+	text-align: justify;
+	margin-right: 3px;
+}
+
+/* principal message section */
+.primeswrap{
+	width:1280px;
+	height: auto;
+	margin: 0 auto;
+}
+.bar{
+	float:left;
+	width:40%;
+	height: 80px;
+	margin-top: 4%;
+	margin-left: 32%;
+	background-color: #27AE60;
+	border-radius: 25px;
+}
+.bar h1{
+	text-align: center;
+	color:#fff;
+	margin-top: 15px;
+	font-size: 40px;
+}
+
+/*principal image seciton */
+
+.principalwrap{
+	width:1280px;
+	height: auto;
+	margin: 0 auto;
+}
+.principalimg{
+	float:left;
+}
+
+.principalimg img{
+	float:left;
+	width:70%;
+	border-radius: 50%;
+	border:3px solid #34495E;
+	margin-left: 10%;
+	margin-top: 10%;
+}
+
+.principal p{
+	float:left;
+	padding-left: 25px;
+}
+
+}
+/* text section */
+.textwrap{
+	width:-50%;
+}
+.text{
+	width:100%;
+
+}
+.text p{
+	padding-top: 20px;
+	padding-left: 0px;
+	padding-top: 20px;
+	font-family: 'Roboto Slab', serif;
+}
+.text h2{
+	padding-top: 80px;
+	font-family: 'PT Serif', serif;
+}
+/* card wrap */
+
+.cardicowrap{
+	width:1280px;
+	height: auto;
+	margin: 0 auto;
+}
+.n{
+	margin-right: 0;
+}
+.cardico{
+	float:left;
+	width:320px;
+	margin-top: 50px;
+	height: 250px;
+}
+.cardico img{
+	float:left;
+	margin-left: 70px;
+}
+.cardico p{
+	float:left;
+	margin-left: 50px;
+	margin-right:50px;
+	font-family: 'Roboto Slab', serif;
+	text-align: justify;
+}
+
+
+/* our mission blank */
+.ourmissionblank{
+	width:100%;
+	float:left;
+	margin:0 auto;
+	height: 45px;
+}
+/* footer wrap start from here */
+
+.footerwrap{
+	width:1280px;
+	height: auto;
+	margin:0 auto;
+}
+.footer{
+	float:left;
+	width:100%;
+	height: 400px;
+	background-color: #34495E;
+}
+.footer h1{
+	text-align: center;
+	padding-top: 65px;
+	font-size: 40px;
+	color:#fff;
+	font-family: 'Josefin Sans', sans-serif;
+	
+}
+.footer h1:hover{
+	font-size: 45px;
+	transition: .9s;
+	color: #27AE60;
+}
+.fcard1{
+	float:left;
+	width:250px;
+	margin-left: 60px;
+	margin-top:20px;
+}
+.fcard1 h3{
+	color:#fff;
+	font-family: 'PT Serif', serif;
+	font-weight: lighter;
+	margin-bottom: 25px;
+	padding-top: 40px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.fcard1 h3:hover{
+	transition: 1s;
+	color: tomato;
+}
+.fcard1 a{
+	color : #fff;
+	padding-bottom: 10px;
+	text-decoration: none;
+	font-family: 'Josefin Sans', sans-serif;
+
+}
+.fcard1 a:hover{
+	transition: .9s;
+	color: #27AE60;
+}
+
+/* copyright start from here */
+
+.copyrightwrap{
+	width: 1280px;
+	height: auto;
+	margin: 0 auto;
+}
+.copyright{
+	float: left;
+	width:100%;
+	height: 70px;
+	background-color: #283747;
+}
+.copyright i{
+	color:white;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.copyright p{
+	font-family: 'Abel', sans-serif;
+	margin-top: 25px;
+	text-align: center;
+	color: white;
+}
+.copyright b{
+	font-weight: normal;
+	color:gainsboro;
+	font-family: 'Mansalva', cursive;
+}
+
+/* ====================================== TEACHERS CSS ============================================ */
+
+
+.teacherwrap{
+	width:1280px;
+	height: auto;
+	margin: 0 auto;
+}
+.teachert{
+	float: left;
+	width:32%;
+	height: auto;
+	margin-left: 35%;
+	margin-right: 25%;
+}
+.teachert h1{
+	color:#fff;
+	background-color: #283747;
+	text-align: center;
+	padding-top: 13px;
+	padding-bottom: 13px;
+	margin-bottom: 5px;
+	margin-top:47.5px;
+	border-radius: 25px;
+}
+
+/* teachercard start from here */
+
+.teachercard{
+	width: 1280px;
+	height: auto;
+	margin: 0 auto;
+}
+.teachwrap{
+	float: left;
+	border-radius: 20px;
+	width:280px;
+	height: 400px;
+	background-color: #EEEEEE;
+	margin-right: 48.5px;
+	margin-top: 48.5px;
+	border-radius: 27px;
+	
+}
+.teacherupper{
+	position: relative;
+	float: left;
+	width:280px;
+	height: 200px;
+	background-color:  ;
+}
+.teacherlower{
+	float: left;
+	width:280px;
+	height: 200px;
+}
+.teacherlower h2{
+	text-align: center;
+	padding-top: 25px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 20px;
+	padding-bottom: 15px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.teacherlower p{
+	font-family: 'Roboto Slab', serif;
+	text-align: center;
+	font-size: 15px;
+}
+
+.teachrimg img{
+	width:150px;
+	height: 150px;
+	border-radius: 50%;
+	transform: translate(62px, 40px);
+}
+.teacherlower a{
+	color:#fff;
+	float: left;
+	font-family: 
+	color:#fff;
+	text-decoration: none;
+	font-size: 20px;
+	margin-left: 55px;
+	margin-top: 30px;
+	background-color: black;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 4px;
+	padding-bottom: 6px;
+	border-radius: 25px;
+}
+
+/* no margin */
+.te{
+	margin-right: 0;
+}
+
+/* tblank here */
+
+.tblank{
+	float: left;
+	width:100%;
+	height: 48.5px;
+}
+
+
+/* blank div */
+.blank{
+	width:100%;
+	height: 200px;
+	float:left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* header responsive */
+@media screen and (max-width: 660px){
+	.header{
+		width:100%;
+		height: 85px;
+	}
+	.header img{
+		width:50px;
+		height: 50px;
+		margin-left: 20px;
+		margin-right: 20px;
+		margin-top: 20px;
+	}
+	.header h1{
+		font-size:20px;
+		margin-top: 2px;
+	}
+}
+
+
+
+
+/* menu responsive */
+@media screen and (max-width: 660px){
+	.menu{
+		width:100%;
+		height:85px;
+	}
+	.menu ul li{
+		margin-left: 0;
+		margin-top: 17px;
+	}
+	.menu ul li a{
+		float:left;
+		font-size: 15px;
+	}
+	.menu ul li a:hover{
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+}
+
+/* top image responsive */
+
+@media screen and (max-width: 660px){
+	.slider img{
+		width:100%;
+		height: 350px;
+	}
+}
